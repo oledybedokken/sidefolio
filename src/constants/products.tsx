@@ -1,5 +1,6 @@
 import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
 import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
+import norskinsPreview from "public/images/norskins-preview.png";
 import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
 import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
 import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
@@ -9,14 +10,14 @@ import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterk
 
 export const products = [
   {
-    href: "https://aceternity.com",
-    title: "Aceternity",
+    href: "https://norskins.no",
+    title: "Norskins",
     description:
-      "A design and development studio that focuses on building quality apps.",
-    thumbnail: sidefolioAceternity,
+      "Norskins is a Norwegian trading brand that offers a lets users sell CS:GO skins for real money.",
+    thumbnail: norskinsPreview,
     images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+    stack: ["Nextjs", "Tailwindcss", "MUI", "AWS","Nodejs","PostgreSQL"],
+    slug: "norskins",
     content: (
       <div>
         <p>

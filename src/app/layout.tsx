@@ -11,9 +11,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe - Developer",
+  title: "Ole Dybedokken - Developer",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "My name is Ole Dybedokken and I am a data science masters graduate. Developed startup that generated over 4 Million Kroner in Q1 2024. My main focus is effiently developing software that helps businesses grow.",
 };
 
 export default function RootLayout({
