@@ -3,6 +3,7 @@ import norskinsSecond from "public/images/norskins-second.png";
 import skinswapPreview from "public/images/skinswap-preview.png";
 import skinswapSecond from "public/images/skinswap-second.png";
 import chatbotPreview from "public/images/chatbot-preview.jpeg";
+import chatbotSecond from "public/images/chatbotwithanswer.png"
 import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
 import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
 import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
@@ -54,31 +55,20 @@ export const products = [
     ),
   },
   {
-    href: "https://gomoonbeam.com",
     title: "Laerdal Chatbot",
     description:
-      "AI chatbot for Laerdal Medical, a high quality Agent BAsed Chatbot master thesis project.",
+      "AI chatbot for Laerdal Medical, a high quality Agent Based Chatbot master thesis project.",
     thumbnail: chatbotPreview,
-    images: [chatbotPreview, sidefolioMoonbeam2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "moonbeam",
+    images: [chatbotPreview, chatbotSecond],
+    stack: ["Python", "Streamlit", "Langchain"],
+    slug: "chatbot",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+        This self-reflective solution handles advanced user prompts and can significantly boost efficiency at Laerdal by performing tasks rapidly and cost-effectively. Features include fast retrieval of employee information, updated daily, to facilitate global internal communication and collaboration. Additionally, it can understand and generate images with live data from the internet using various tools in combination.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          The project got graded an A, and was a my master thesis at UIS. It is now being used by Laerdal Medical as the project delivered high quality results.
         </p>{" "}
       </div>
     ),
