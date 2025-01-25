@@ -13,8 +13,8 @@ export default function Home() {
       <Heading className="font-black">Work History</Heading>
       <Paragraph className="max-w-xl mt-4">
         I&apos;m a full-stack developer that loves{" "}
-        <Highlight>building products</Highlight> and web apps that can impact
-        millions of lives
+        <Highlight>building products</Highlight> and web apps currently have 
+        millions of customers.
       </Paragraph>
       <WorkHistory />
     </Container>

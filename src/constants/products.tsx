@@ -4,10 +4,6 @@ import skinswapPreview from "public/images/skinswap-preview.png";
 import skinswapSecond from "public/images/skinswap-second.png";
 import chatbotPreview from "public/images/chatbot-preview.jpeg";
 import chatbotSecond from "public/images/chatbotwithanswer.png"
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
-
 export const products = [
   {
     href: "https://norskins.no",
@@ -46,10 +42,10 @@ export const products = [
     SkinSwap.com is an innovative platform that enables users to trade and exchange their CS:GO skins in a fast, secure, and user-friendly environment. As a full stack developer on this project, I was responsible for both front-end and back-end development, ensuring the platform delivers a seamless experience for our users.
   </p>
   <p>
-    On the front end, I utilized <strong>React.js</strong> for a dynamic and responsive user interface, combined with <strong>TailwindCSS</strong> to create a modern and visually appealing design. The back end was built using <strong>Node.js</strong> and <strong>Express</strong>, providing a robust and scalable server-side framework. Additionally, we used <strong>MongoDB</strong> for a flexible and performant database solution, and <strong>AWS</strong> for cloud hosting and deployment, ensuring high availability and security.
+    On the front end, I utilized <strong>Next.js</strong> for a fast and responsive user interface, combined with <strong>TailwindCSS</strong> to create a modern and visually appealing design. The back end was built using <strong>Node.js</strong> and <strong>Express</strong>, providing a robust and scalable server-side framework. Additionally, we used <strong>MongoDB</strong> for a flexible and performant database solution, and <strong>AWS</strong> for cloud hosting and deployment, ensuring high availability and security.
   </p>
   <p>
-    My role involved developing core features such as frontend development, secure payment integration, and user authentication. I also worked closely with the design and product teams to continuously improve the platform&apos;s functionality and user experience. Through these efforts, SkinSwap.com has become a trusted platform for CS:GO skin trading, offering a reliable marketplace for gamers worldwide.
+    My role involved developing core features such as frontend development, secure payment integration, and user authentication. I also worked closely with the design and product teams to continuously improve the platform&apos;s functionality and user experience. I also played a huge role in the <strong>SEO</strong> aspect of this site and increasing customers through google search with over 200%. Through these efforts, SkinSwap.com has become a trusted platform for CS:GO skin trading, offering a reliable marketplace for gamers worldwide.
   </p>
       </div>
     ),
@@ -69,36 +65,6 @@ export const products = [
         </p>
         <p>
           The project got graded an A, and was a my master thesis at UIS. It is now being used by Laerdal Medical as the project delivered high quality results.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
-    href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
-    description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "tailwindmasterkit",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
         </p>{" "}
       </div>
     ),
